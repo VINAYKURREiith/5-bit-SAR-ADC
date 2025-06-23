@@ -30,8 +30,14 @@ The SAR ADC converts an analog input voltage to a digital output using binary se
 
 ## 📐 Circuit Diagram
 
-> Upload and link your schematic image here:
-![SAR ADC Schematic](./images/schematic.png)
+### Block Diagram
+![SAR ADC Block](./images/block.png)
+
+### SAR Schematic Diagram
+![SAR ADC Block](./images/sar.png)
+
+### DAC Schematic
+![SAR ADC Block](./images/dac.png)
 
 ---
 
@@ -68,18 +74,6 @@ sar-adc-dff/
 4. Use Arduino or pulse generator to provide the clock.
 5. Observe digital output bits (e.g., LEDs or on logic analyzer).
 
-### Simulation (Optional)
-
-If implemented in Verilog:
-```bash
-# Compile
-iverilog -o sar sar_adc.v testbench.v
-
-# Run
-vvp sar
-```
-
----
 
 ## 📈 Output Example
 
