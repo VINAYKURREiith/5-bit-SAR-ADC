@@ -77,8 +77,7 @@ sar-adc-dff/
 
 ## 📈 Output Example
 
-> Insert photo/screenshot here:
-> ![Output Demo](./Results/2.mp4)
+> ![Output Demo](./images/outpu.png)
 
 ---
 
