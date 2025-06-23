@@ -31,13 +31,13 @@ The SAR ADC converts an analog input voltage to a digital output using binary se
 ## 📐 Circuit Diagram
 
 ### Block Diagram
-![SAR ADC Block](./images/block.png)
+![SAR ADC Block](./images/block.jpg)
 
 ### SAR Schematic Diagram
 ![SAR ADC Block](./images/sar.png)
 
 ### DAC Schematic
-![SAR ADC Block](./images/dac.png)
+![SAR ADC Block](./images/DAC.png)
 
 ---
 
@@ -78,7 +78,7 @@ sar-adc-dff/
 ## 📈 Output Example
 
 > Insert photo/screenshot here:
-> ![Output Demo](./images/output.png)
+> ![Output Demo](./Results/2.mp4)
 
 ---
 
