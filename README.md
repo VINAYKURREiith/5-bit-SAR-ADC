@@ -1,11 +1,11 @@
 
-# ⚡ SAR ADC using D Flip-Flops
+#  SAR ADC using D Flip-Flops
 
 This project implements a **Successive Approximation Register (SAR) Analog-to-Digital Converter (ADC)** using basic digital logic components—primarily **D Flip-Flops**, a **comparator**, and an **R-2R DAC**. The design is intended for educational and prototyping purposes and can be implemented on a breadboard or simulated digitally.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The SAR ADC converts an analog input voltage to a digital output using binary search. The circuit uses:
 
@@ -16,7 +16,7 @@ The SAR ADC converts an analog input voltage to a digital output using binary se
 
 ---
 
-## 🔧 Key Components
+##  Key Components
 
 | Component         | Description                           |
 |------------------|---------------------------------------|
@@ -28,7 +28,7 @@ The SAR ADC converts an analog input voltage to a digital output using binary se
 
 ---
 
-## 📐 Circuit Diagram
+##  Circuit Diagram
 
 ### Block Diagram
 ![SAR ADC Block](./images/block.jpg)
@@ -41,7 +41,7 @@ The SAR ADC converts an analog input voltage to a digital output using binary se
 
 ---
 
-## 🧠 Working Principle
+##  Working Principle
 
 1. **Start**: MSB is set to 1, rest are 0.
 2. **Compare**: DAC output is compared with input voltage.
@@ -51,7 +51,7 @@ The SAR ADC converts an analog input voltage to a digital output using binary se
 
 ---
 
-## 💻 Folder Structure
+## Folder Structure
 
 ```
 
@@ -64,7 +64,7 @@ sar-adc-dff/
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### Hardware Setup
 
@@ -75,13 +75,13 @@ sar-adc-dff/
 5. Observe digital output bits (e.g., LEDs or on logic analyzer).
 
 
-## 📈 Output Example
+##  Output Example
 
 > ![Output Demo](./images/outpu.png)
 
 ---
 
-## 🧠 Learnings
+## Learnings
 
 * Implemented SAR ADC without using microcontrollers
 * Understood internal SAR logic via D flip-flops
@@ -89,7 +89,7 @@ sar-adc-dff/
 
 ---
 
-## 📚 References
+##  References
 
 * [Analog Devices SAR ADC Guide](https://www.analog.com/en/analog-dialogue/articles/how-a-successive-approximation-adc-works.html)
 * Digital Design by M. Morris Mano
@@ -97,7 +97,7 @@ sar-adc-dff/
 
 ---
 
-## 📜 License
+##  License
 
 This project is open for academic and learning use. Please cite the repo if used in reports or tutorials.
 
